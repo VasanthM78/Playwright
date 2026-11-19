@@ -121,7 +121,7 @@ test("date picker loop", async ({ page }) => {
 
 
 
-test.only("scroll",async({page})=>{
+test("scroll",async({page})=>{
     await page.goto("https://testautomationpractice.blogspot.com/");
 
     await page.mouse.wheel(0,2000);
